@@ -12,9 +12,12 @@ body{
 	margin-right:auto; 
 }
 
-#button{
+#butLogin{
 	color: #fff;
-	background: #337ab7;
 	padding: 5px;
-	margin-left: 69%; 
+}
+
+#butSign{
+	color: #fff;
+	padding: 5px; 
 }
