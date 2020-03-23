@@ -1,6 +1,6 @@
 <?php
 
- 	$username = $_POST['username'];
+ 	@$username = $_POST['username'];
  	$password = $_POST['password'];
 
 	$db='mysql';     //資料庫類型
@@ -17,4 +17,4 @@
 	 echo "ERROR query";
 	} 
 
-?>
+?> 

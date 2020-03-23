@@ -13,18 +13,21 @@
 			</p>
 			<p>
 				<label>帳號:</label>
-				<input type="text" name="name" placeholder="請輸入帳號">
+				<input type="text" name="username" placeholder="請輸入帳號">
 			</p>
 			<p><label>密碼: </label>
 				<input type="text" name="password" placeholder="請輸入密碼">
+			</p>
+			<p><label>密碼確認: </label>
+				<input type="text" name="password2" placeholder="請再次輸入密碼">
 			</p>
 			<p>
 				<input type="submit" name="submit" value="註冊">
 			</p>
 		</form>
-		<form method="POST" action="Login.php">
+		<form method="POST" action="login.php">
 			 <p>
-                <input type="submit" id="butLogin" value="登入頁面">
+                <input type="submit" name="submit" value="登入頁面">
             </p>
 		</form>
 	</div>

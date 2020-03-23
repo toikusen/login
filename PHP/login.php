@@ -20,12 +20,12 @@
                 <input type="text" id="password" name="password" placeholder="請輸入密碼">
             </p>
             <p>
-                <input type="submit" id="butLogin" value="登入">
+                <input type="submit" name="submit" value="登入">
             </p>
         </form>
         <form method="POST" action="register.php">
             <p>
-                <input type="submit" id="butSign" value="註冊頁面">
+                <input type="submit" name="submit" value="註冊頁面">
             </p>
         </form>
     </div>
